@@ -186,7 +186,7 @@ section {
 }
 
 .about .row .image {
-  flex: 1 1 0rem;
+  flex: 1 1 2rem;
 }
 
 .about .row .image img {
