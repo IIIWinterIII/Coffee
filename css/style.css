@@ -15,6 +15,7 @@
   box-sizing: border-box;
   outline: none;
   border: none;
+  /* border: 1px solid black; */
   text-decoration: none;
   text-transform: capitalize;
   transition: all 0.2s linear;
@@ -548,12 +549,14 @@ section {
     font-size: 50%;
   }
 
-   
+  .home .row .image {
+    min-height: 450px;
+  }
 
   .home .row .image img {
     height: auto;
-    width: 90%;
-    margin-left: 50px;
+    width: 80%;
+    margin-left: 80px;
   }
 
   .about .row .image {
